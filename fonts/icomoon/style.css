@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?gbwsmj');
+  src:  url('fonts/icomoon.eot?gbwsmj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gbwsmj') format('truetype'),
+    url('fonts/icomoon.woff?gbwsmj') format('woff'),
+    url('fonts/icomoon.svg?gbwsmj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\41";
+}
+.icon-diamond:before {
+  content: "\e901";
+}
+.icon-cup:before {
+  content: "\e902";
+}
+.icon-paperplane:before {
+  content: "\e903";
+}
+.icon-food:before {
+  content: "\e904";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-tux:before {
+  content: "\eabd";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-soundcloud:before {
+  content: "\eac3";
+}
+.icon-delicious:before {
+  content: "\eacd";
+}
